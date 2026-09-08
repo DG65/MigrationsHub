@@ -1,4 +1,4 @@
-# MigrationsHub
+# MigrationsHub (im DG65 Toolkit: „Vormund")
 
 ![Symcon](https://img.shields.io/badge/Symcon-PHPModul-blue)
 ![Modul Version](https://img.shields.io/badge/Modul_Version-0.1.0-blue)
@@ -15,7 +15,9 @@ Teil des **DG65 Toolkit** (domänenfreie Hilfsmodule, im Unterschied zum energie
 NRG-Stack) — funktioniert unabhängig vom Zielmodul mit jeder IP-Symcon-Instanz, ist aber bisher
 vor allem mit NRG-Stack-Modulen wie InverterHub/MeterHub/ChargerHub erprobt und abgestimmt
 (Discovery-Integration, Ident-Auskunft — siehe unten); welche Modulstände zusammenpassen, steht
-im internen Verbund-Manifest.
+im internen Verbund-Manifest. Trägt im DG65 Toolkit den Namen **„Vormund"** (Übernahme einer
+fremden Variable bei erhaltener eigener Identität, analog zur Vormundschaft) — Klassenname,
+Repository und Instanztyp bleiben aus Kompatibilitätsgründen weiterhin „MigrationsHub".
 
 ## Wofür braucht man das?
 

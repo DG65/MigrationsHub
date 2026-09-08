@@ -11,6 +11,15 @@ würde für jede beliebige Symcon-Modul-Migration funktionieren — die einzige 
 Wh/kWh-Zwillingserkennung (bleibt als Kernlogik bestehen). Ändert nichts an der Fachlichkeit, nur
 an der Außendarstellung (`library.json`, README, Modul-Aliase).
 
+**Modulname im DG65 Toolkit: „Vormund"** (verspielte Namensfindungsrunde, 08.09.2026, moderiert
+von StrukturHub/Katasteramt). Begründung eigener Vorschlag: der bevorzugte Migrationsweg heißt
+intern bereits „Übernahme (Adoption)" — eine Vormundschaft übernimmt Verantwortung für jemanden,
+dessen eigene Identität dabei erhalten bleibt, genau wie hier die Objekt-ID/Historie beim
+Instanzwechsel. Betrifft NUR die Außendarstellung (`library.json→name`, Alias in
+`module.json→aliases`, README) — `module.json→name` (PHP-Klassenname), Repository-Name und
+Instanztyp bleiben bewusst „MigrationsHub" (Umbenennen des Klassennamens bricht laufende
+Installationen, siehe frühere Incident-Historie).
+
 ## Verwandte Repositories
 
 Weiterhin praktisch am engsten abgestimmt mit den NRG-Stack-Modulen (Discovery-Integration,
