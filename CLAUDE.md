@@ -1,9 +1,21 @@
 # Hinweise für die Arbeit an diesem Repository
 
+## Markenzugehörigkeit: DG65 Toolkit (nicht NRG-Stack)
+
+Entscheidung Dietmars (01.09.2026, via GleitenderMittelwert-Sitzung kommuniziert):
+MigrationsHub gehört zum **DG65 Toolkit** (domänenfreie Hilfsmodule, Gründungsmitglieder u. a.
+GleitenderMittelwert, StrukturHub), nicht zum energiebezogenen NRG-Stack — trotz der bisherigen
+praktischen Nähe zu dessen Modulen. Begründung (eigene Einschätzung, von Dietmar bestätigt): der
+Kern (Reparenten, Archivhistorie, Referenzsuche, Instanz-Analyse) ist vollständig domänenfrei und
+würde für jede beliebige Symcon-Modul-Migration funktionieren — die einzige echte Ausnahme ist die
+Wh/kWh-Zwillingserkennung (bleibt als Kernlogik bestehen). Ändert nichts an der Fachlichkeit, nur
+an der Außendarstellung (`library.json`, README, Modul-Aliase).
+
 ## Verwandte Repositories
 
-Teil desselben Modul-Verbunds, an mehreren wird teilweise **gleichzeitig in getrennten
-Sitzungen** gearbeitet:
+Weiterhin praktisch am engsten abgestimmt mit den NRG-Stack-Modulen (Discovery-Integration,
+Ident-Auskunft — siehe unten), an denen teilweise **gleichzeitig in getrennten Sitzungen**
+gearbeitet wird:
 
 - **MigrationsHub** (dieses Repo): Migration von Bestandsgeräten/Verknüpfungen/Archivwerten —
   https://github.com/DG65/NRGMigrationsHub
@@ -251,7 +263,8 @@ Erkenntnisse aus bisherigen Store-Reviews im Verbund — bei jeder Änderung ein
 - Klassenname = Modulname; Installation nur über die Modulverwaltung.
 - Sprachregel (alles Nutzersichtbare deutsch) und Eigenständigkeit (`.tools/check-standalone.php`
   grün) einhalten.
-- **Dachmarke: NRG-Stack; Hersteller/Org: DG65** ([github.com/DG65](https://github.com/DG65)).
+- **Dachmarke: DG65 Toolkit; Hersteller/Org: DG65** ([github.com/DG65](https://github.com/DG65)) —
+  seit 01.09.2026 (siehe Markenzugehörigkeit oben), zuvor NRG-Stack.
 - **Lizenz: PolyForm Noncommercial 1.0.0** (privat/nicht-kommerziell frei, gewerblich
   lizenzpflichtig — Kontakt DG65). Kanonischer `LICENSE`-Text im EMS-Repo, 1:1 übernehmen; wirkt
   nur nach vorn (MIT-Altversionen bleiben MIT).

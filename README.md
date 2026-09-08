@@ -11,8 +11,11 @@ IP-Symcon-Modul zur Migration von Bestandsgeräten: Übernahme alter Variablen a
 [InverterHub](https://github.com/DG65/NRGInverterHub) oder [MeterHub](https://github.com/DG65/NRGMeterHub))
 — **mitsamt Archivhistorie und bestehenden Verknüpfungen**.
 
-Teil des **NRG-Stack** — welche Modulstände zusammenpassen, steht im Manifest
-internen Verbund-Manifest.
+Teil des **DG65 Toolkit** (domänenfreie Hilfsmodule, im Unterschied zum energiebezogenen
+NRG-Stack) — funktioniert unabhängig vom Zielmodul mit jeder IP-Symcon-Instanz, ist aber bisher
+vor allem mit NRG-Stack-Modulen wie InverterHub/MeterHub/ChargerHub erprobt und abgestimmt
+(Discovery-Integration, Ident-Auskunft — siehe unten); welche Modulstände zusammenpassen, steht
+im internen Verbund-Manifest.
 
 ## Wofür braucht man das?
 
